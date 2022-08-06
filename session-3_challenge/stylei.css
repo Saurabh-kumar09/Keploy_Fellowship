@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(to right, rgba(3, 3, 3, 0.5), rgba(248, 149, 21, 0.5), rgba(37, 56, 86, 1))/* CSS Gradients : Linear gradient*/
+}
+
+.box {
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 400px;
+    height: 120px;
+    margin: 50px 500px;
+    /* opacity: 0.7; */
+}
+
+h3 {
+    padding-left: 100px;
+    color: rgb(255, 9, 9);
+}
+
+#cname {
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+#btn {
+    size: 25px;
+    float: left;
+    width: 15%;
+    padding: 8px;
+    background: #d78034;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    /* Prevent double borders */
+    cursor: pointer;
+}
