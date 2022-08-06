@@ -36,3 +36,7 @@ h3 {
     /* Prevent double borders */
     cursor: pointer;
 }
+
+.p-3 {
+    margin-left: 600px;
+}
