@@ -1,24 +1,24 @@
 //status code is 200
-pm.test("Status code is 200", function () {
+pm.test("Status code is 200", function() {
     pm.response.to.have.status(200);
 });
 
 
-pm.test("Status code is 404", function () {
+pm.test("Status code is 404", function() {
     pm.response.to.have.status(404);
 });
 
-pm.test("Status code is 204", function () {
+pm.test("Status code is 204", function() {
     pm.response.to.have.status(204);
 });
 
 //Response body : is equal to a string
-pm.test("Body matches string", function () {
-    pm.expect(pm.response.text()).to.include("string_you_want_to_search");
+pm.test("Body matches string", function() {
+    pm.expect(pm.response.text()).to.include("Ikigai");
 });
 
 //Response body : json value check
-pm.test("Your test name", function () {
+pm.test("Your test name", function() {
     var jsonData = pm.response.json();
     pm.expect(jsonData.value).to.eql(100);
 });
